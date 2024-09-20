@@ -2,6 +2,8 @@
 
 # Command uses 
 
+### Run Kafka containe
+```docker compose -f <fileName.yml> up -d```
 ### Move into Kafka container
 ```docker exec -it <kafka_conatiner_id> /bin/sh```
 ### Go inside kafka installation folder
